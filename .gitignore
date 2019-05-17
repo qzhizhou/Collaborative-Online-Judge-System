@@ -1,3 +1,13 @@
+oj-client/node_modules/
+oj-server/node_modules/
+public/
+lib/
+include/
+bin/
+executor/tmp
+.Python
+pip-selfcheck.json
+
 # Logs
 logs
 *.log
