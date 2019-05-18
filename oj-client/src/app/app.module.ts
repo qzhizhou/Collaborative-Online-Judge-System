@@ -12,13 +12,16 @@ import { ProblemDetailComponent } from "./components/problem-detail/problem-deta
 
 @NgModule({
   declarations: [AppComponent, ProblemListComponent, ProblemDetailComponent],
+
   imports: [BrowserModule, FormsModule, HttpModule, routing],
+
   providers: [
     {
       provide: "data",
       useClass: DataService
     }
   ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule {}

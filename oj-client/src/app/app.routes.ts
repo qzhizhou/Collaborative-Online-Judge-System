@@ -14,7 +14,7 @@ const routes: Routes = [
     component: ProblemListComponent
   },
   {
-    path: "problems/:id",
+    path: "problems/:id", //加引号说明是变量
     component: ProblemDetailComponent
   },
   {
